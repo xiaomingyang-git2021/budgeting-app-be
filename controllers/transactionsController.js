@@ -1,6 +1,6 @@
 // DEPENDENCIES
 const express = require("express");
-const transaction = require("../models/transaction.js");
+// const transaction = require("../models/transaction.js");
 
 // MIDDLEWARE AND ROUTE
 const transactionRoutes = express.Router();
@@ -13,7 +13,7 @@ transactionRoutes.get("/", (req, res) => {
 
 // /transactions/1
 transactionRoutes.get("/:index", (req, res) => {
-  const { index } = req.params
+  const { index } = req.params;
   if(transactionsArr[index]) {
     res.json(transactionsArr[index]);
   } else {

@@ -4,48 +4,48 @@ module.exports = [
     name: "Groceries",
     amount: -30,
     from: "Ideal",
-    category: ""
+    category: "Food"
   },
   {
     date: "April 1",
     name: "Shopping",
     amount: -47,
     from: "Target",
-    category: ""
+    category: "Personal"
   },
   {
     date: "April 2",
     name: "Income",
     amount: 2000,
     from: "Google",
-    category: ""
+    category: "Income"
   },
   {
     date: "April 5",
     name: "Gas",
     amount: -25,
     from: "Shell Gas Station",
-    category: ""
+    category: "Transportation"
   },
   {
     date: "April 6",
     name: "Rent",
     amount: -700,
     from: "Pike International, LLC",
-    category: ""
+    category: "Housing"
   },
   {
     date: "April 8",
     name: "Income",
     amount: 2000,
     from: "Google",
-    category: ""
+    category: "Income"
   },
   {
     date: "April 8",
     name: "Groceries",
     amount: -40,
     from: "Mr. Kiwi",
-    category: ""
+    category: "Food"
   },
 ];
